@@ -1,0 +1,11 @@
+export const body = document.querySelector('body');
+export const toggleTheme = document.querySelector('.theme');
+export const darkTheme = document.querySelector('.theme-dark');
+export const lightTheme = document.querySelector('.theme-light');
+export const spinner = document.querySelector('.spinner');
+export const topicsNumber = document.querySelector('.topics-counter');
+export const errorMessage = document.querySelector('.error');
+export const filterSelect = document.querySelector('.filterby-menu');
+export const sortSelect = document.querySelector('.sortby-menu');
+export const searchTopicInput = document.querySelector('.search-topic');
+export const coursesContainer = document.querySelector('.cards');

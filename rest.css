@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;500;600;700;800&display=swap');
+
+body {
+  --brand-primary:#0768AC;
+  --brand-secondary:	#03C180;
+  --bg-default:	#FFFFFF;
+  --bg-body:	#F0F9FF;
+  --lines-color:	#DDDDDD;
+  --body-text:	#333333;
+  --heart-color:	#DC143C;
+
+  background-color: var(--bg-body)
+}
+
+body.dark {
+  --brand-primary:	#0768AC;
+  --brand-secondary:	#03C180;
+  --bg-default:	#1A1A1A;
+  --bg-body:	#282828;
+  --lines-color:	#000000;
+  --body-text:	#EDEDED;
+  --heart-color:	#DC143C;
+}
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none !important;
+}
+
+.container {
+  padding-inline: 0;
+}
+
+.form-select {
+  padding: 0;
+  background-position: right 0rem center;
+  background-color: transparent;
+  color: var(--body-text)!important;
+}
+
+.form-select:focus {
+  box-shadow: none;
+}
+
+.form-control {
+  color: var(--body-text);
+  padding: 0.9rem .75rem;
+  border: none;
+}
+
+.form-control::placeholder {
+  opacity: .5;
+  color: var(--body-text);
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+select option {
+  background-color: var(--bg-default);
+  color: var(--body-text);
+}
+
+.offcanvas {
+  height: 27vh!important;
+}
+
+.offcanvas-header {
+  padding-block: .7rem!important;
+  padding-inline: 0!important
+}
+
+.offcanvas-body {
+  padding-inline: 0!important;
+}
+
+.offcanvas-backdrop {
+  display: none;
+}
